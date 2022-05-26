@@ -1,0 +1,40 @@
+.favicon img{
+    height:70px;
+    filter:invert(100%);
+}
+.favicon{
+    display: flex;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+.log{
+    display: flex;
+    height:35px;
+    justify-content: space-between;
+    color:rgb(28, 28, 82);
+}
+.navbtn{
+    width:100px;
+    margin:0px 10px;
+    font-size: 20px;
+    color:rgb(28, 28, 82);
+    cursor:pointer;
+    border-radius:3px;
+    border:none;
+}
+button:hover{
+    text-decoration: underline ;
+}
+.navbar{
+    background-color: rgb(28, 28, 82);
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.navbarin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    max-width:1024px;
+}

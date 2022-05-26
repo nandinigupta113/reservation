@@ -1,0 +1,130 @@
+.headerList{
+    display:flex;
+    color:white;
+    display:flex;
+    width:100%;
+    max-width:1024px;
+    font-size: 20px;
+    margin:30px 0px 40px 0px;
+    gap:40px;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(28, 28, 82);
+}
+.headerListItem{
+    padding:10px;
+}
+.headerListItem span{ 
+    margin-left: 10px;
+}
+.headerListItem.active{
+    border:2px solid white;
+    border-radius: 3px;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 28, 82);
+    color:white;    
+}
+.disc{
+    font-family: 'Secular One', sans-serif;
+    font-size:35px;
+    margin-bottom: 20px;
+}
+.disc2{
+    font-size:20px;
+}
+.offerin{
+    width:100%;
+    max-width:1024px;
+}
+.signIn{
+    margin:25px 5px 80px;
+    width:180px;
+    height: 50px;
+    font-size:20px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(202, 202, 221);
+    cursor: pointer;
+}
+.headSearch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    color:black;
+    border:3px solid orangered;
+    border-radius: 4px;
+    height:60px;
+    margin-bottom: -25px;
+    font-size: 20px;
+}
+.headersearchItem{
+    color: rgb(151, 147, 147);
+}
+.headerSearchText{
+    margin-left:10px;
+    border: none;
+    outline:none;
+    font-size: 20px;
+}
+.headerIcon{
+    border:none;
+}
+.headerbtn{
+    font-size: 16px;
+    background-color: rgb(56, 56, 226);
+    color:white;
+    height: 40px;
+    width:80px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.calander{
+    position:absolute;
+    top:493px;
+    margin-left: -200px;
+}
+.selection{
+    position:absolute;
+    top:490px;
+    box-shadow:0px 0px 10px -5px rgb(149, 144, 144);
+    width:250px;
+    color:black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+}
+.counterbtn{
+    border:1px solid rgb(56, 56, 226);
+    width:30px;
+    height:30px;
+    border-radius: 2px;
+    cursor: pointer; 
+    background-color: #fff;
+}
+.counterbtn:hover{
+    text-decoration:none;
+}
+.selectionlist{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:7px;
+}
+.selectionll{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 12px;
+    color:black;
+}
+.counterbtn:disabled{
+    cursor:not-allowed; 
+}
