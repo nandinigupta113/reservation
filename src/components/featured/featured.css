@@ -1,0 +1,24 @@
+.featuredItem img{
+    height:220px;
+    width:320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.featured{
+    width:100%;
+    max-width:1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.featuredTitles{
+    color:white;
+    position:absolute;
+    bottom: 2px;
+    font-family: 'Secular One', sans-serif;
+    margin-left: 10px;
+}
+.featuredItem{
+    height: 250px;
+    flex:1;
+}

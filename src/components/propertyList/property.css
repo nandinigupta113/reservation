@@ -1,0 +1,29 @@
+.property{
+    width:100%;
+    max-width:1024px;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    cursor:pointer;
+    margin-top: 20px;
+}
+.propertyItem img{
+    height:150px;
+    width:100%;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.propertyItem{
+    flex:1;
+}
+.propertyTitles{
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 10px;
+}
+.propertyTitles>h1{
+    font-size: 16px;
+}
+.propertyTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+}

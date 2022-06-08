@@ -1,0 +1,29 @@
+.fLists{
+    width:100%;
+    max-width: 1024px; 
+    display: flex;
+    justify-content:space-between; 
+}
+.footer{
+    font-size: 14px;
+    margin: 40px;
+    display: flex;
+    justify-content:center;
+}
+.fList{
+    list-style: none;
+
+}
+.fListItem{
+    margin:15px;
+    font-family: 'Secular One', sans-serif;
+}
+.fText{
+    width:100%;
+    max-width: 1024px;
+    margin-bottom: 20px;  
+}
+.align{
+    display: flex;
+    justify-content:center;
+}
