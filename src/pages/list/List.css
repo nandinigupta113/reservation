@@ -1,0 +1,65 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+}
+.listWrapper{
+    display: flex;
+    max-width: 1024px;
+    width:100%;
+}
+.listSearch{
+    margin-top: 20px;
+    flex:1;
+    border-radius: 10px;
+    padding:20px;
+    background-color: #febb02;
+}
+.listResult{ 
+    flex:3;
+
+}
+.lsTitle{
+    color:rgb(21, 73, 79);
+    font-family: 'Secular One', sans-serif;
+    font-size:25px;
+}
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    margin:7px 0px;
+}
+.lsItem label{
+    margin:4px 0px;
+    font-weight: bold;
+}
+.lsOptionsItem>input{
+    width: 50px;
+}
+.lsItem>input{
+    height: 30px;
+    border: none;
+    outline:none;
+    padding: 0.5rem;
+}
+.checkin{
+    background-color: #fff;
+    height: 30px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lsOptionsItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.hotel_search{
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+   background-color: rgb(28, 28, 82);
+}

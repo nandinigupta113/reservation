@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.siImg{
+    width: 200px;
+    height: 220px;
+}
+.SearchItem{
+    border:2px solid gray;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.siDesc{
+    margin:0px 20px;
+}
+.siTitle{
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(46, 46, 147);
+}
+.siavail{
+    background-color:rgb(10, 86, 10);
+    color: white;
+   width: fit-content;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 5px;
+}
+.cond{
+   font-weight: bold;
+   font-size: 15px;
+   margin:5px 0px;
+   font-family: 'Secular One', sans-serif;
+}
+.cancel{
+   font-family: 'Secular One', sans-serif;  
+   color:green;
+   margin: 5px 0px;
+   font-weight: bold;
+}
+.discrip{
+    color:green;  
+    font-size: 15px;
+}
+.sirating{
+    display: flex;
+    justify-content: space-between;
+}
+.sirating>button{
+        background-color: rgb(28, 28, 82);
+        border: none;
+        color:white;
+        padding:5px;
+        font-weight: bold;
+}
+.sirating>span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.siDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dollar{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Secular One', sans-serif;
+}
+.sifees{
+    display: flex;
+    justify-content: flex-end;
+    color: grey; 
+    font-size: 15px;
+    margin:7px 0px;
+}
+.sitaxes>button{
+    background-color: rgb(46, 46, 147);
+    color: white;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    height: 35px;
+    width:10rem;
+    border-radius: 5px;
+}
