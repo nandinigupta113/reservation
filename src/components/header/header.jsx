@@ -39,7 +39,7 @@ const Header = ({type}) => {
   };
 
   const handleSearch = () =>{
-    navigate("/hotels", {state:{destination, date, options}});
+    navigate("/list", {state:{destination, date, options}});
   }
 
   return (

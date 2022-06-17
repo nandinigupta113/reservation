@@ -1,0 +1,120 @@
+.hotelContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.textWrapper{
+    width: 100%;
+    max-width: 1024px;
+}
+.hotelTitle{
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+.hotelAddress{
+    display: flex;
+    gap: 10px;
+    margin: 5px 0px;
+}
+.hotelloc{
+    color: rgb(27, 27, 184);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.bookstay{
+    color:green;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px; 
+}
+.titlewrap{
+    display: flex;
+    justify-content: space-between;
+}
+.reserve{
+    margin-top: 20px;
+    background-color: rgb(46, 46, 147);
+    color: white;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    height: 35px;
+    width:15rem;
+    border-radius: 5px;
+}
+.hotelImg{
+    width:100%;
+    object-fit: cover;
+}
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotelImgWrapper{
+    width: 33%;
+}
+.hoteldisc{
+    display: flex;
+    gap: 10px;
+}
+.box1 h1{
+    margin:20px 0px;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+.box1{
+    flex:3;
+}
+.box2{
+    padding: 20px;
+    margin:20px 0px;
+    flex:1;
+    background-color: rgb(174, 199, 198);
+}
+.box2 h2{
+    font-size: 20px;
+}
+.box2 p{
+    margin: 20px 0px;
+}
+.box2 span{
+    font-size: 25px;
+}
+.slider{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-color: rgba(0,0,0,0.426);
+}
+.slideWrapper{
+    display: flex;
+    justify-content: center;
+}
+.sliderImg{
+    display: flex;
+    height: 80%;
+    width: 80%;
+}
+.close{
+    position: absolute;
+    top: 3rem;
+    right: 7.5rem;
+    font-size: 40px;
+    color:lightgray;
+}
+.arrow{
+    font-size: 50px;
+    color: #fff;
+    margin: 2rem;
+}

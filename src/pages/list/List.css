@@ -13,6 +13,9 @@
     border-radius: 10px;
     padding:20px;
     background-color: #febb02;
+    position:sticky;
+    height: max-content;
+    top:10px;
 }
 .listResult{ 
     flex:3;
@@ -63,3 +66,8 @@
     margin-top: 20px;
    background-color: rgb(28, 28, 82);
 }
+/* .sicalender{
+    position:absolute;
+    top:493px;
+    margin-left: -200px;
+} */
